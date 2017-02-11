@@ -1,0 +1,267 @@
+.hero{
+	height: 85vh;
+    overflow: hidden;
+    background-size: 23% 23%,23% 23%;
+    background-position: bottom left,bottom right;
+    background-repeat: no-repeat, no-repeat;
+}
+.hh{
+	position: relative;
+}
+.heroH1{
+	font-size: 4em;
+    top: 1.4em;
+}
+.heroH3{
+	font-size: 2em;
+    top: 2em;
+}
+.heroH6{
+	font-size: 1.5em;
+    top: 4.5em;
+}
+.cta{
+	position: relative;
+    left: 33.5%;
+    width: 30%;
+    top:6em;
+    font-size: 1.6em;
+}
+
+.fIcon{
+	width: 30%;
+	min-width: 50px;
+}
+.fH6{
+	font-weight: 300;
+	font-family: "Open Sans";
+	font-size: 3em;
+}
+.fH6.smaller{
+    font-size: 2em;
+    line-height: 1.6em;
+}
+.fp{
+	width: 90%;
+    margin: 5%;
+    line-height: 1.6em;
+    font-weight: 300;
+}
+.pH6{
+	font-weight: 400;
+	margin: 1.5em 0 2em 0;
+}
+.pborder{
+	border: 3px solid;
+    height: 70vh;
+    padding: 0;
+    margin-left: 10%;
+    overflow: hidden;
+}
+.pborder.extended{
+	height: 80vh;
+    position: relative;
+    top: -5vh;
+}
+.pgHeader{
+    display: table;
+    display: -webkit-table;
+    width: 100%;
+    padding: 0 5%;
+    text-align: left;
+}
+.pH3{
+    font-size: 1.5em;
+    vertical-align: middle;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+}
+.pborder.extended>.pricingTable{
+    top: 15%;
+}
+.pricingTable{
+    display: table;
+    width: 100%;
+    position: relative;
+    top: 10%;
+}
+.pricingRow{
+    display: table-row;
+}
+.priceNumber{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 3.5em;
+}
+.pricingDescription{
+    padding: 1em;
+    text-align: left;
+}
+.lgnBtnLg{
+    padding:1em 2em;
+    border:1px solid;
+    cursor: pointer;
+    opacity: .8;
+    margin: 0 1em;
+    font-size: 1.2em;
+}
+.lgnBtn.white-background:hover{
+    background-color: #d7f1fb !important;
+    opacity: 1;
+}
+.smoothBkgd{
+    -webkit-transition: background-color .5s, opacity .5s;
+    transition: background-color .5s, opacity .5s;
+}
+.optionCont{
+    height: 65vh;
+    text-align: left;
+    margin-bottom: 15vh;
+}
+.planOptions{
+    position: relative;
+    top: 30%;
+    left:30%;
+}
+.standardAdjust{
+    top:13%;
+}
+.pricingDetails{
+    font-size: 1em;
+}
+.filterIcon{
+    width: 15%;
+    min-width: 50px;
+    margin-bottom: 3em;
+}
+.clicon{
+    width: 25%;
+    -webkit-filter:grayscale(100%);
+    filter:grayscale(100%);
+    opacity: .3;
+    margin: 1.3em 0 4em 0;
+}
+.directoryLink{
+    display: inline;
+    display: -webkit-inline;
+    margin: 0 .4em;
+    word-break: break-word;
+    font-weight: 200;
+}
+.fpng{
+    width: 100%;
+    margin: 4em 0;
+}
+.legalRow{
+    margin-top: 3em;
+}
+@media screen and (max-width:800px){
+    .hero{
+        height: 85vh;
+        overflow: hidden;
+        background-size: 30% 20%,30% 20%;
+        background-position: bottom left,bottom right;
+        background-repeat: no-repeat, no-repeat;
+    }
+    .featureCell{
+        width: 100%;
+    }
+    .payCell{
+        width: 84%;
+    }
+    .planOptions{
+        position: relative;
+        top: 4%;
+        left: 10%;
+        text-align: center;
+    }
+    .optionCont {
+        height: 44vh;
+        text-align: left;
+        margin-bottom: 15vh;
+    }
+}/*
+@media screen and (min-device-width : 375px) and (max-device-width : 667px){
+    .hero{
+        height: 75vh;
+        overflow: hidden;
+        background-image: url(../img/landing_page_city_1.png),url(../img/landing_page_city_2.png);
+        background-size: 40% 20%,40% 20%;
+        background-position: bottom left,bottom right;
+        background-repeat: no-repeat, no-repeat;
+    }
+    .heroH1 {
+        font-size: 9em;
+        top: 1.4em;
+    }
+    .heroH3 {
+        font-size: 4em;
+        top: 3em;
+    }
+    .heroH6 {
+        font-size: 4.5em;
+        top: 3.5em;
+    }
+    .featureCell{
+        width: 100%;
+    }
+    .payCell{
+        width: 84%;
+    }
+    .planOptions{
+        position: relative;
+        top: 6%;
+        left: 10%;
+        font-size: 3em;
+        text-align: center;
+    }
+    .optionCont {
+        height: 60vh;
+        text-align: left;
+        margin-bottom: 15vh;
+    }
+    .lgnBtnLg{
+        padding: 1.5em 2em;
+        border: 1px solid;
+        cursor: pointer;
+        opacity: .8;
+        font-size: 3em;
+    }
+    .cta{
+        position: relative;
+        left: 10.5%;
+        width: 80%;
+        top: 7em;
+    }
+    .pricingDescription {
+        padding: 1em;
+        text-align: left;
+        font-size: 3em;
+    }
+    .pricingRow {
+        display: table-row;
+        font-size: 3em;
+    }
+    .priceNumber {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        font-size: 10.5em;
+    }
+    .pH3{
+        font-size: 3.5em;
+        vertical-align: middle;
+        font-weight: 300;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .activityAction {
+        font-size: 2.9em;
+    }
+    .filterContainer{
+        height: 100vh;
+        font-size: 2em;
+    }
+    .fp{
+        font-size: 3em;
+    }
+}*/

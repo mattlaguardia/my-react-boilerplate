@@ -1,0 +1,82 @@
+.smlBtnLg {
+  padding: 0px 15px;
+  border: 1px solid;
+  cursor: pointer;
+  opacity: .8;
+  margin: 0 1em;
+  font-size: 1em;
+}
+
+.smlBtn.white-background:hover {
+    background-color: #d7f1fb !important;
+    opacity: 1;
+}
+
+#nav-links li a {
+  color: #1b2733;
+}
+
+.dropdown-content li > a:hover {
+  color: #36b7ea !important;
+  background-color: #f8f8f8;
+}
+
+#credit-dropdown span .dropdown-content {
+  width: 220px !important;
+  top: 42px !important;
+  /*left: 975px !important;*/
+  padding: 10px 0;
+}
+
+#credit-dropdown span .dropdown-content li > a {
+  padding: 5px 10px;
+}
+
+#credit-dropdown span a {
+  padding: 0;
+}
+
+.credit-button {
+  float: right;
+  border-radius: 0;
+  font-size: 10px;
+  padding: 0px 20px;
+  border: none;
+  font-weight: 100;
+}
+
+#credit-dropdown {
+  line-height: 15px;
+  margin-right: 55px;
+}
+
+#credit-angle-icon {
+  height: 0;
+}
+
+#buy-more {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  font-size: 10px;
+  right: -50px;
+  font-weight: 100;
+}
+
+.nav-hover a:hover, .nav-hover span > a:hover, .nav-hover li a:hover, #nav-links li a:hover {
+  background-color: white;
+  color: #36b7ea;
+  text-decoration: none;
+}
+
+#settings-button a > i {
+  height: 44px;
+}
+
+@media screen and (max-width:800px){
+    .smHide{
+      display: none;
+    }
+}
