@@ -1,0 +1,99 @@
+.settingsCard{
+	padding:2em;
+	border: 1px solid #ececec;
+	height: 250vh;
+	min-height: 1900px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	max-width: 796px;
+}
+.settingsCard h6{
+	font-size: 2em;
+}
+table>tbody>tr>td.text-left{
+	padding:1em 2em;
+}
+#configuration>tbody>tr>td.text-left{
+	padding:0.3em 1em;
+}
+
+.settingsSubTitles{
+	font-family: "Open Sans";
+	font-weight: 400;
+}
+.newPassword{
+	cursor: pointer;
+}
+.newPassword:hover{
+	text-decoration: underline;
+}
+.integrationRow{
+	padding:1.5em;
+	margin-top:1.5em;
+	overflow: hidden;
+	margin-bottom:1.5em;
+}
+.integrationRow>*{
+	display: inline;
+	display: -webkit-inline;
+}
+.integrationIcon{
+	width: 8%;
+	min-width: 40px;
+}
+.settingsBtn{
+	padding:7px 50px;
+	margin:.1em;
+	display: inline;
+	display: -webkit-inline;
+}
+.emailSelect{
+	margin:1em 0 0 2em;
+}
+.sampleWindow{
+	padding:2em;
+	font-size: .85em;
+	width: 85%;
+	margin:2em;
+}
+#configuration{
+	margin-bottom:2em;
+}
+.configureEmail{
+	width:55%;
+	margin-left: 5em;
+}
+.configureEmail .select-dropdown,.configureEmail .select-wrapper input.select-dropdown{
+	padding:1em;
+}
+.fa.fa-2x.fa-angle-down{
+	position: relative;
+    top: -.3em;
+}
+.cardSave{
+	display: inline-block;
+	margin-top:1em;
+	margin-left:30%;
+}
+.collapsible{
+	box-shadow: none;
+	border:none;
+}
+.collapsible-header{
+	border:none;
+	color:#1b2733;
+}
+.opSlider{
+	padding:1em;
+}
+.smtxt{
+	font-size: .8em;
+}
+.lgbufferMargin{
+	margin-top: 4em;
+}
+.signupBtn{
+    font-size: .8em;
+    padding: 15px 50px;
+    margin-top: 2em;
+}

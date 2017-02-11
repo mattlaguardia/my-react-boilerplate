@@ -1,0 +1,138 @@
+@import url("./color.css");
+@import url("./grid.css");
+
+/* COMPONENTS */
+@import url("./landing.css");
+@import url("./nav.css");
+@import url("./settings.css");
+
+h1,h2,h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+h4,h5,h6{
+  font-size: 1em;
+  font-family: "Lato";
+  font-weight: 300;
+}
+hr{
+  opacity: .3;
+}
+a{
+  color: #36b7ea;
+  cursor: pointer;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+strong{
+  font-weight: 700 !important;
+}
+.text-center{
+  text-align: center !important;
+}
+.text-left{
+  text-align: left !important;
+}
+.text-right{
+  text-align: right !important;
+}
+.page-container {
+  margin-top: 2em;
+}
+
+.small-border {
+  border: 1px solid;
+}
+
+.small-left-border {
+  border-left: 1px solid;
+}
+
+.small-top-border {
+  border-top: 1px solid;
+}
+.small-bottom-border {
+  border-bottom: 1px solid;
+}
+
+.small-right-border {
+  border-right: 1px solid;
+}
+
+.medium-border {
+  border: 2px solid;
+}
+
+.medium-left-border {
+  border-left: 2px solid;
+}
+
+.medium-top-border {
+  border-top: 2px solid;
+}
+.medium-bottom-border {
+  border-bottom: 2px solid;
+}
+
+.medium-right-border {
+  border-right: 2px solid;
+}
+.inline-block{
+  display: inline-block;
+}
+.hidden{
+  display: none;
+}
+.hundredHeight{
+  height: 100%;
+}
+.full-width{
+  width: 100%;
+}
+.pushRight{
+  float: right;
+}
+strong.largeText{
+  font-size: 2em;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a[href="https://froala.com/wysiwyg-editor"] {
+    display: none !important;
+}
+
+@keyframes failedValidation {
+  0%, 100%{
+    border-color:#36b7ea;
+  }
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+    border-color:#fb615d;
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+.failedValidation{
+  animation: failedValidation 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+}

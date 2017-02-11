@@ -1,0 +1,80 @@
+/* FONTS */
+
+.black {
+  color: #1b2733 !important;
+}
+
+.white {
+  color: #ffffff !important;
+}
+
+.electric-blue {
+  color: #36b7ea !important;
+}
+
+.electric-blue-light {
+  color: #d7f1fb !important;
+}
+
+.green {
+  color: #28c3b5 !important;
+}
+
+.red {
+  color: #fb615d !important;
+}
+
+.gray {
+  color: #647382 !important;
+}
+
+.gray-light {
+  color: #f5f8f9 !important;
+}
+.gray-medium-1 {
+  color: #cccccc !important;
+}
+.gray-medium-2 {
+  color: #e5e5e5 !important;
+}
+
+/* BACKGROUNDS */
+
+.electric-blue-background {
+  background-color: #36b7ea !important;
+}
+
+.electric-blue-light-background {
+  background-color: #d7f1fb !important;
+}
+
+.gray-medium-background {
+  background-color: #ececec !important;
+}
+
+.gray-light-background {
+  background-color: #f5f8f9 !important;
+}
+
+.white-background {
+  background-color: #ffffff !important;
+}
+.red-background {
+  background-color: #fb615d !important;
+}
+
+.green-background {
+  background-color: #28c3b5 !important;
+}
+
+/* BORDERS */
+
+.gray-border {
+  border-color: #ececec !important;
+}
+.gray-light-border {
+  border-color: #f5f8f9 !important;
+}
+.electric-blue-border {
+  border-color: #36b7ea !important;
+}
