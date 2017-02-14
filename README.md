@@ -21,3 +21,4 @@ If Nodemon is installed globally:
 1. Run "npm install" to install dependencies
 2. In a separate window, run nodemon to start the server
 3. Upon any changes in the code, run "webpack" to bundle the app
+# messy-redux
